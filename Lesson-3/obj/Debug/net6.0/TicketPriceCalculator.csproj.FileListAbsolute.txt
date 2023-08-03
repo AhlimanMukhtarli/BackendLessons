@@ -1,0 +1,15 @@
+C:\Users\Ahliman Mukhtarli\source\repos\TicketPriceCalculator\bin\Debug\net6.0\TicketPriceCalculator.exe
+C:\Users\Ahliman Mukhtarli\source\repos\TicketPriceCalculator\bin\Debug\net6.0\TicketPriceCalculator.deps.json
+C:\Users\Ahliman Mukhtarli\source\repos\TicketPriceCalculator\bin\Debug\net6.0\TicketPriceCalculator.runtimeconfig.json
+C:\Users\Ahliman Mukhtarli\source\repos\TicketPriceCalculator\bin\Debug\net6.0\TicketPriceCalculator.dll
+C:\Users\Ahliman Mukhtarli\source\repos\TicketPriceCalculator\bin\Debug\net6.0\TicketPriceCalculator.pdb
+C:\Users\Ahliman Mukhtarli\source\repos\TicketPriceCalculator\obj\Debug\net6.0\TicketPriceCalculator.csproj.AssemblyReference.cache
+C:\Users\Ahliman Mukhtarli\source\repos\TicketPriceCalculator\obj\Debug\net6.0\TicketPriceCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahliman Mukhtarli\source\repos\TicketPriceCalculator\obj\Debug\net6.0\TicketPriceCalculator.AssemblyInfoInputs.cache
+C:\Users\Ahliman Mukhtarli\source\repos\TicketPriceCalculator\obj\Debug\net6.0\TicketPriceCalculator.AssemblyInfo.cs
+C:\Users\Ahliman Mukhtarli\source\repos\TicketPriceCalculator\obj\Debug\net6.0\TicketPriceCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Ahliman Mukhtarli\source\repos\TicketPriceCalculator\obj\Debug\net6.0\TicketPriceCalculator.dll
+C:\Users\Ahliman Mukhtarli\source\repos\TicketPriceCalculator\obj\Debug\net6.0\refint\TicketPriceCalculator.dll
+C:\Users\Ahliman Mukhtarli\source\repos\TicketPriceCalculator\obj\Debug\net6.0\TicketPriceCalculator.pdb
+C:\Users\Ahliman Mukhtarli\source\repos\TicketPriceCalculator\obj\Debug\net6.0\TicketPriceCalculator.genruntimeconfig.cache
+C:\Users\Ahliman Mukhtarli\source\repos\TicketPriceCalculator\obj\Debug\net6.0\ref\TicketPriceCalculator.dll

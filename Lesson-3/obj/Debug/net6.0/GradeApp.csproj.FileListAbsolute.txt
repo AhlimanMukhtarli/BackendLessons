@@ -1,0 +1,15 @@
+C:\Users\Ahliman Mukhtarli\source\repos\GradeApp\bin\Debug\net6.0\GradeApp.exe
+C:\Users\Ahliman Mukhtarli\source\repos\GradeApp\bin\Debug\net6.0\GradeApp.deps.json
+C:\Users\Ahliman Mukhtarli\source\repos\GradeApp\bin\Debug\net6.0\GradeApp.runtimeconfig.json
+C:\Users\Ahliman Mukhtarli\source\repos\GradeApp\bin\Debug\net6.0\GradeApp.dll
+C:\Users\Ahliman Mukhtarli\source\repos\GradeApp\bin\Debug\net6.0\GradeApp.pdb
+C:\Users\Ahliman Mukhtarli\source\repos\GradeApp\obj\Debug\net6.0\GradeApp.csproj.AssemblyReference.cache
+C:\Users\Ahliman Mukhtarli\source\repos\GradeApp\obj\Debug\net6.0\GradeApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahliman Mukhtarli\source\repos\GradeApp\obj\Debug\net6.0\GradeApp.AssemblyInfoInputs.cache
+C:\Users\Ahliman Mukhtarli\source\repos\GradeApp\obj\Debug\net6.0\GradeApp.AssemblyInfo.cs
+C:\Users\Ahliman Mukhtarli\source\repos\GradeApp\obj\Debug\net6.0\GradeApp.csproj.CoreCompileInputs.cache
+C:\Users\Ahliman Mukhtarli\source\repos\GradeApp\obj\Debug\net6.0\GradeApp.dll
+C:\Users\Ahliman Mukhtarli\source\repos\GradeApp\obj\Debug\net6.0\refint\GradeApp.dll
+C:\Users\Ahliman Mukhtarli\source\repos\GradeApp\obj\Debug\net6.0\GradeApp.pdb
+C:\Users\Ahliman Mukhtarli\source\repos\GradeApp\obj\Debug\net6.0\GradeApp.genruntimeconfig.cache
+C:\Users\Ahliman Mukhtarli\source\repos\GradeApp\obj\Debug\net6.0\ref\GradeApp.dll
