@@ -1,0 +1,15 @@
+C:\Users\Ahliman Mukhtarli\source\repos\Usercode\bin\Debug\net6.0\Usercode.exe
+C:\Users\Ahliman Mukhtarli\source\repos\Usercode\bin\Debug\net6.0\Usercode.deps.json
+C:\Users\Ahliman Mukhtarli\source\repos\Usercode\bin\Debug\net6.0\Usercode.runtimeconfig.json
+C:\Users\Ahliman Mukhtarli\source\repos\Usercode\bin\Debug\net6.0\Usercode.dll
+C:\Users\Ahliman Mukhtarli\source\repos\Usercode\bin\Debug\net6.0\Usercode.pdb
+C:\Users\Ahliman Mukhtarli\source\repos\Usercode\obj\Debug\net6.0\Usercode.csproj.AssemblyReference.cache
+C:\Users\Ahliman Mukhtarli\source\repos\Usercode\obj\Debug\net6.0\Usercode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahliman Mukhtarli\source\repos\Usercode\obj\Debug\net6.0\Usercode.AssemblyInfoInputs.cache
+C:\Users\Ahliman Mukhtarli\source\repos\Usercode\obj\Debug\net6.0\Usercode.AssemblyInfo.cs
+C:\Users\Ahliman Mukhtarli\source\repos\Usercode\obj\Debug\net6.0\Usercode.csproj.CoreCompileInputs.cache
+C:\Users\Ahliman Mukhtarli\source\repos\Usercode\obj\Debug\net6.0\Usercode.dll
+C:\Users\Ahliman Mukhtarli\source\repos\Usercode\obj\Debug\net6.0\refint\Usercode.dll
+C:\Users\Ahliman Mukhtarli\source\repos\Usercode\obj\Debug\net6.0\Usercode.pdb
+C:\Users\Ahliman Mukhtarli\source\repos\Usercode\obj\Debug\net6.0\Usercode.genruntimeconfig.cache
+C:\Users\Ahliman Mukhtarli\source\repos\Usercode\obj\Debug\net6.0\ref\Usercode.dll
