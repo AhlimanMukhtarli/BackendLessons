@@ -1,0 +1,270 @@
+1)let fullName = 'Murad Narimanli Tarlan';
+
+// Remove spaces and convert the name to lowercase (optional)
+let cleanedName = fullName.replace(/\s/g, '').toLowerCase();
+
+// Split the name into an array of letters
+let lettersArray = cleanedName.split('');
+
+console.log(lettersArray);
+2)let fullName = 'Murad Narimanli Tarlan';
+
+// Split the full name into an array of words
+let nameArray = fullName.split(' ');
+
+// Swap the first and last names
+let swappedArray = [nameArray[nameArray.length - 1], ...nameArray.slice(1, nameArray.length - 1), nameArray[0]];
+
+// Flatten the array of names and then split into an array of letters
+let lettersArray = swappedArray.join('').split('');
+
+console.log(lettersArray);
+3)let arr = [4, 5, 2, 1, 5, 2, 5, 3, 5, 6, 2, 1, 6, 2, 6, 2, 5, 3, 2, 7, 4, 6, 4, 5, 6, 2, 5, 6, 3, 7, 3, 7];
+
+let newArray = [];
+for (let i = 0; i < arr.length; i++) {
+  newArray.push(arr[i]);
+}
+
+let newArrayAsString = newArray.join('');
+
+console.log("Step 3 Result:", newArrayAsString);
+4)let mode5Count = 0;
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] === 5) {
+    mode5Count++;
+  }
+}
+
+console.log("Step 4 Result:", `Mode 5 is repeated ${mode5Count} times.`);
+
+5)let sum = 0;
+for (let i = 0; i < arr.length; i++) {
+  sum += arr[i];
+}
+
+console.log("Step 5 Result:", `The sum of all numbers is ${sum}.`);
+
+6)let uniqueSortedArray = [];
+for (let i = 0; i < arr.length; i++) {
+  if (!uniqueSortedArray.includes(arr[i])) {
+    uniqueSortedArray.push(arr[i]);
+  }
+}
+uniqueSortedArray.sort((a, b) => a - b);
+
+console.log("Step 6 Result:", uniqueSortedArray);
+
+7)let maxNumber = arr[0];
+let maxNumberCount = 1;
+
+for (let i = 1; i < arr.length; i++) {
+  if (arr[i] > maxNumber) {
+    maxNumber = arr[i];
+    maxNumberCount = 1;
+  } else if (arr[i] === maxNumber) {
+    maxNumberCount++;
+  }
+}
+
+console.log("Step 7 Result:", `The largest number is ${maxNumber} and it is repeated ${maxNumberCount} times.`);
+
+8)let randomNum = Math.floor(Math.random() * 10) + 1;
+let isRandomNumPresent = false;
+
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] === randomNum) {
+    isRandomNumPresent = true;
+    break;
+  }
+}
+
+console.log("Step 8 Result:");
+console.log(`Generated random number: ${randomNum}`);
+console.log(`Is the random number present in the array? ${isRandomNumPresent}`);
+9)let fullName = 'Murad Narimanli Tarlan';
+let nameLength = fullName.replace(/\s/g, '').length;
+
+let isNameLengthPresent = arr.includes(nameLength);
+
+console.log("Step 9 Result:");
+console.log(`Number of letters in the name: ${nameLength}`);
+console.log(`Is the same number present in the array? ${isNameLengthPresent}`);
+
+10)let fullName = 'Murad Narimanli Tarlan';
+let nameLength = fullName.replace(/\s/g, '').length;
+
+let isNameLengthPresent = arr.includes(nameLength);
+
+console.log("Step 9 Result:");
+console.log(`Number of letters in the name: ${nameLength}`);
+console.log(`Is the same number present in the array? ${isNameLengthPresent}`);
+
+11)let modes = {};
+let maxMode = arr[0];
+let maxModeIndex = 0;
+
+for (let i = 0; i < arr.length; i++) {
+  let num = arr[i];
+  modes[num] = (modes[num] || 0) + 1;
+
+  if (modes[num] > modes[maxMode]) {
+    maxMode = num;
+    maxModeIndex = i;
+  }
+}
+
+console.log("Step 11 Result:");
+console.log(`First index of the largest mode (${maxMode}): ${maxModeIndex}`);
+
+12)let mode4Indices = [];
+
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] === 4) {
+    mode4Indices.push(i);
+  }
+}
+
+console.log("Step 12 Result:");
+console.log("Indices of mode 4:", mode4Indices);
+
+13)let mode5Indices = [];
+
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] === 5) {
+    mode5Indices.push(i);
+  }
+}
+
+let largestIndexMode5 = Math.max(...mode5Indices);
+let smallestIndexMode5 = Math.min(...mode5Indices);
+
+console.log("Step 13 Result:");
+console.log(`Largest index of mode 5: ${largestIndexMode5}`);
+console.log(`Smallest index of mode 5: ${smallestIndexMode5}`);
+
+14)let newArrayGreaterThan2 = arr.filter(num => num > 2);
+let lengthDifference = arr.length - newArrayGreaterThan2.length;
+
+console.log("Step 14 Result:");
+console.log("New array with numbers greater than 2:", newArrayGreaterThan2);
+console.log(`Difference in lengths: ${lengthDifference}`);
+
+15)let mode7Indices = [];
+
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] === 7) {
+    mode7Indices.push(i);
+  }
+}
+
+let sumMode7Indices = mode7Indices.reduce((acc, index) => acc + index, 0);
+
+console.log("Step 15 Result:");
+console.log(`Sum of indices of mode 7: ${sumMode7Indices}`);
+
+16)let arr2FilteredT = [];
+for (let i = 0; i < arr2.length; i++) {
+  if (arr2[i].name.toLowerCase().startsWith('t')) {
+    arr2FilteredT.push(arr2[i]);
+  }
+}
+
+console.log("Step 16 Result:");
+console.log(arr2FilteredT);
+17)let countStartAndEndWithT = 0;
+for (let i = 0; i < arr2.length; i++) {
+  if (arr2[i].name.toLowerCase().startsWith('t') && arr2[i].name.toLowerCase().endsWith('t')) {
+    countStartAndEndWithT++;
+  }
+}
+
+console.log("Step 17 Result:");
+console.log(`Number of objects starting and ending with 't': ${countStartAndEndWithT}`);
+
+18)let sumKeysStartAndEndWithT = 0;
+for (let i = 0; i < arr2.length; i++) {
+  if (arr2[i].name.toLowerCase().startsWith('t') && arr2[i].name.toLowerCase().endsWith('t')) {
+    sumKeysStartAndEndWithT += arr2[i].key;
+  }
+}
+
+console.log("Step 18 Result:");
+console.log(`Sum of keys for objects starting and ending with 't': ${sumKeysStartAndEndWithT}`);
+
+19)for (let i = 0; i < arr2.length; i++) {
+  if (arr2[i].name.toLowerCase().endsWith('e')) {
+    arr2[i].name = 'SuperDev';
+  }
+}
+
+console.log("Step 19 Result:");
+console.log(arr2);
+
+20)let longestNameKey = 0;
+for (let i = 1; i < arr2.length; i++) {
+  if (arr2[i].name.length > arr2[longestNameKey].name.length) {
+    longestNameKey = i;
+  }
+}
+
+console.log("Step 20 Result:");
+console.log(`Key of the object with the longest name: ${arr2[longestNameKey].key}`);
+
+21)let squareIndexLongestName = longestNameKey ** 2;
+
+console.log("Step 21 Result:");
+console.log(`Square of the index of the object with the longest name: ${squareIndexLongestName}`);
+
+22)let arr2NameLength4 = [];
+for (let i = 0; i < arr2.length; i++) {
+  if (arr2[i].name.length === 4) {
+    arr2NameLength4.push(arr2[i]);
+  }
+}
+
+console.log("Step 22 Result:");
+console.log(arr2NameLength4);
+
+23)let maxKeyObject = 0;
+for (let i = 1; i < arr2.length; i++) {
+  if (arr2[i].key > arr2[maxKeyObject].key) {
+    maxKeyObject = i;
+  }
+}
+
+console.log("Step 23 Result:");
+console.log(`Name of the object with the largest key: ${arr2[maxKeyObject].name}`);
+
+24)let indicesDoubleL = [];
+for (let i = 0; i < arr2.length; i++) {
+  if ((arr2[i].name.toLowerCase().match(/l/g) || []).length === 2) {
+    indicesDoubleL.push(i);
+  }
+}
+
+console.log("Step 24 Result:");
+console.log(`Indices of object(s) containing 2 'L's: ${indicesDoubleL}`);
+
+25)let keysDoubleT = [];
+for (let i = 0; i < arr2.length; i++) {
+  if ((arr2[i].name.toLowerCase().match(/t/g) || []).length === 2) {
+    keysDoubleT.push(arr2[i].key);
+  }
+}
+
+console.log("Step 25 Result:");
+console.log(`Keys of object(s) containing 2 't's: ${keysDoubleT}`);
+
+26)function groupObjectsByStartingLetter(arr) {
+  let groups = {};
+  for (let i = 0; i < arr.length; i++) {
+    let startingLetter = arr[i].name.charAt(0).toLowerCase();
+    groups[startingLetter] = groups[startingLetter] || [];
+    groups[startingLetter].push(arr[i]);
+  }
+  return groups;
+}
+
+console.log("Step 26 Result:");
+console.log("Groups of objects in arr2 based on starting letter:", groupObjectsByStartingLetter(arr2));
